@@ -1,0 +1,204 @@
+.active-item-name {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: -25px;
+}
+
+.completed-item-name {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1em;
+}
+
+.completed-draw-winner {
+    padding-top: 10px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1em;
+}
+
+.active-item-amnt {
+    padding: 10px;
+    text-align: center;;
+    font-size: 1.5em;
+}
+
+.active-item-draw-amnt {
+    text-align: center;;
+    font-size: 1em;
+}
+
+.completed-item-draw-amnt {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 5px;
+}
+
+.bid-time-kenji {
+    margin: 0 auto;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-shadow: 1px 1px #EDEDED;
+    margin-top: 10px;
+    margin-bottom: -28px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+@media (max-width: 1199px) {
+    .btn-bid-kenji {
+        width: 75%;
+    }
+
+    .btn-draw-kenji {
+        width: 75%;
+    }
+}
+
+@media (max-width: 991px) {
+    .btn-bid-kenji {
+        width: 75%;
+    }
+
+    .btn-draw-kenji {
+        width: 75%;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1199px) {
+    .btn-bid-kenji {
+        width: 75%;
+    }
+
+    .btn-draw-kenji {
+        width: 75%;
+    }
+}
+
+@media (min-width: 767px) {
+    .btn-bid-kenji {
+        width: 75%;
+    }
+
+    .thumbnail img {
+        padding: 10px;
+        max-height: 180px;
+        max-width: 180px;
+    }
+}
+
+@media (max-width: 767px) {
+    .btn-bid-kenji {
+        width: 75%;
+    }
+
+    .btn-draw-kenji {
+        width: 75%;
+    }
+
+    .thumbnail img {
+        padding: 10px;
+        max-height: 180px;
+        max-width: 180px;
+    }
+}
+
+@media (min-width: 540px) and (max-width: 767px) {
+    .btn-bid-kenji {
+        width: 75%;
+    }
+
+    .btn-draw-kenji {
+        width: 75%;
+    }
+
+    .btn-nav-bid {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .btn-nav-draw {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .thumbnail img {
+        padding: 10px;
+        max-height: 180px;
+        max-width: 180px;
+    }
+}
+
+@media (max-width: 540px) {
+    .btn-bid-kenji {
+        width: 75%;
+    }
+
+    .btn-draw-kenji {
+        width: 75%;
+    }
+
+    .btn-nav-bid {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
+    .btn-nav-draw {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-top: 20px;
+    }
+
+    .thumbnail img {
+        padding: 10px;
+        max-height: 180px;
+        max-width: 180px;
+    }
+}
+
+.btn-bid-kenji {
+    width: 75%;
+    background: #ff2387;
+}
+
+.btn-draw-kenji {
+    width: 75%;
+    background: #ff2387;
+}
+
+.btn-draw-buy-kenji {
+    width: 75%;
+    background: #2348ff;
+}
+
+body {
+    background: rgba(255, 255, 255, 1);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255, 1)), color-stop(47%, rgba(246, 246, 246, 1)), color-stop(100%, rgba(237, 237, 237, 1)));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(246, 246, 246, 1) 47%, rgba(237, 237, 237, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed', GradientType=0);
+}
+
+.container h2 {
+    color: #444;
+    font-family: sans-serif;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+
+.carousel-control.left {
+  background-image: none;
+}
+
+.carousel-control.right {
+  background-image: none;
+}
