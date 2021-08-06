@@ -1,5 +1,5 @@
 # hoseh-auction-app
-An auction/bidding web application developed using Laravel for a local company. UX design, DB design, developed, tested and deployed by Roland Ross Hadi
+An auction/bidding web application developed using Laravel for a local company. UX design, DB design, developed, tested, and deployed by Roland Ross Hadi
 
 ## adding	new	product	to	bid/draw
 
